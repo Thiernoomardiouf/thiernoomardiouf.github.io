@@ -84,7 +84,7 @@ body{
         font-size: 30px;
     }
     .page-footer{
-       background-image: url(Images/Imgfooter.png);
+         background-image: url(Images/Imgfooter.png);
         margin-top: 10px;
         height: 80%;
         color: #FFFFFF;
@@ -103,6 +103,9 @@ body{
         width: 30px;
         height: 30px;
     }
+    .carte{
+        height: 33rem;
+      }
 } 
 @media only screen and (max-width:1450px){
   .app{
@@ -233,6 +236,9 @@ body{
     .page-footer p{
       font-size: 20px;
     }
+    .carte{
+      height: 43rem;
+    }
 } 
 h2, h3{
     color: #CE0033;
@@ -321,7 +327,20 @@ h6{
     background-color: #CE0033;
     height: 100px;
 }
-
+#slid1, #slid2, #slid3{
+    background-color: #CE0033;
+    border-radius: 50%;
+    height: 15px;
+}
+.ima{
+   border-radius: 2%;
+}
+#slid4, #slid5, #slid6{
+    background-color: #CE0033;
+    border-radius: 50%;
+    height: 15px;
+    margin-top: 12px;
+}
 
 #img-Video{
     border-radius: 10%;
