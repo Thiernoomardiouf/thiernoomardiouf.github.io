@@ -12,8 +12,9 @@ body{
         background-color: #FFFFFF;
     }
     .barre{
-        width: 0px;
-        height: 0px;
+        width: 60px; 
+        height: 1px; 
+        background-color: black;
     }
     .bouton1{
         background-color: #CE0033; 
@@ -76,7 +77,7 @@ body{
         background-color: #CE0033; 
         text-align: center; 
         color: #FFFFFF; 
-        height: 55x;
+        height: 65px;
         margin-top: 23%;
     }
     .espace h1{
@@ -113,15 +114,27 @@ body{
           font-size: 34px;
       }
       h2{
-          font-size: 25px;
-          color: #CE0033;
+          font-size: 21px;
+          color: black;
           font-weight: bold;
       }
       h3{
-          font-size: 23px;
+          font-size: 20px;
           color: #CE0033;
           font-weight: bold;
       }
+      .paragraphe-bouton{
+          text-align: center;
+      }
+      .slide-parrains{
+        margin-top: -28%;
+    }
+    .voir{
+        color: #CE0033; 
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 139px;
+    }
 } 
 @media only screen and (max-width:1450px){
   .app{
@@ -261,14 +274,22 @@ body{
         font-size: 34px;
     }
     h2{
-        font-size: 30px;
-        color: #CE0033;
+        font-size: 35px;
+        color: black;
         font-weight: bold;
     }
     h3{
         font-size: 26px;
         color: #CE0033;
         font-weight: bold;
+    }
+    .slide-parrains{
+        margin-top: -18%;
+    }
+    .voir{
+        color: #CE0033; 
+        font-weight: bold;
+        margin-left: 18px;
     }
 } 
 
@@ -281,64 +302,6 @@ body{
 }
 hr{
     background-color: #CE0033;
-}
-
-/* .image-1{
-    background-image: url(Images/simp12.jpg); 
-    width: 360px; 
-    height: 290px; 
-    border-radius: 10%; 
-    opacity: 0.4;
-}
-.image-1 h4{
-    background-color: #CE0033; 
-    text-align: center; 
-    color: #FFFFFF; 
-    margin-top: 139px;
-}
-.image-2{
-    background-image: url(Images/simp13.jpg); 
-    width: 360px; 
-    height: 350px; 
-    border-radius: 10%; 
-    opacity: 0.4;
-}
-.image-2 h4{
-    background-color: #574f51; 
-    text-align: center; 
-    color: #FFFFFF; 
-    margin-top: 169px;
-}
-.image-3{
-    background-image: url(Images/simp4.jpeg); 
-    width: 360px; 
-    height: 330px; 
-    border-radius: 10%; 
-    opacity: 0.4;
-}
-.image-3 h4{
-    background-color: #CE0033; 
-    text-align: center; 
-    color: #FFFFFF; 
-    margin-top: 169px;
-}
-.image-4{
-    background-image: url(Images/simp12.jpg); 
-    width: 360px; 
-    height: 290px; 
-    border-radius: 10%; 
-    opacity: 0.4;
-}
-.image-4 h4{
-    background-color: #CE0033; 
-    text-align: center; 
-    color: #FFFFFF; 
-    margin-top: 139px;
-} */
-.voir{
-    color: #CE0033; 
-    font-weight: bold;
-    margin-left: 20px;
 }
 .date{
     color: #CE0033;
