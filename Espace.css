@@ -82,7 +82,7 @@ body{
     }
     .espace h1{
         font-weight: bold;
-        font-size: 30px;
+        font-size: 28px;
     }
     .page-footer{
          background-image: url(Images/Imgfooter.png);
@@ -127,7 +127,7 @@ body{
           text-align: center;
       }
       .slide-parrains{
-        margin-top: -28%;
+        margin-top: -25%;
     }
     .voir{
         color: #CE0033; 
@@ -135,6 +135,13 @@ body{
         font-size: 15px;
         margin-left: 139px;
     }
+    .cerre {
+        margin: 0px 5px;
+      }
+      .demi{
+          width: 0px;
+          height: 0px;
+      }
 } 
 @media only screen and (max-width:1450px){
   .app{
@@ -222,7 +229,9 @@ body{
         font-size: 25px;
     }
     .image-apropos{
-        margin-top: -613px;
+        margin-top: -500px;
+        height: 500px;
+        width: 100%;
     }
     .image-reseau{
         z-index: 1;
@@ -358,14 +367,10 @@ h6{
  .cerre{
     margin: -41px -145px;;
  }
- @media only screen and (max-width: 600px) {
-    .cerre {
-      margin: 0px 5px;
-    }
-    .demi{
-        width: 0px;
-        height: 0px;
-    }
+ @media only screen and (min-width: 1024px) {
+     p{
+         font-size: 25px;
+     }
 }
 @media only screen and (max-width: 800px) {
     .cerre {
