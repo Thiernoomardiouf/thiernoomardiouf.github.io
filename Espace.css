@@ -61,6 +61,8 @@ body{
     .parrain{
         background-image: url(Images/bac1.png); 
         height: 349px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .fleche{
         width: 15px; 
@@ -84,23 +86,8 @@ body{
         font-weight: bold;
         font-size: 28px;
     }
-    .page-footer{
-         background-image: url(Images/Imgfooter.png);
-        margin-top: 10px;
-        height: 80%;
-        color: #FFFFFF;
-    }
 
-    .page-footer p{
-      font-size: 15px;
-    }
-    .page-footer h6{
-        font-size: 17px;
-    }
-    .page-footer h1{
-        font-size: 17px;
-    }
-    .page-footer img{
+    .footer img{
         width: 30px;
         height: 30px;
     }
@@ -243,6 +230,8 @@ body{
     .parrain{
         background-image: url(Images/bac1.png); 
         height: 549px;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
     .fleche{
         width: 30px; 
@@ -265,15 +254,6 @@ body{
     .espace h1{
         font-weight: bold;
         font-size: 50px;
-    }
-    .page-footer{
-        background-image: url(Images/Imgfooter.png);
-        margin-top: 45px;
-        height: 450px;
-        color: #FFFFFF;
-    }
-    .page-footer p{
-      font-size: 20px;
     }
     .carte{
       height: 44rem;
@@ -477,3 +457,39 @@ h6{
  input, textarea{
      box-shadow:  2px 2px 4px black;;
  }
+
+ .footer{
+    background-image: url('Images/Imgfooter.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.social{
+    padding: 10px;
+}
+.p-footer{
+    font-size: 20px;
+    opacity: 75%;
+}
+.link-a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    opacity: 75%;
+}
+.barre-footer div p{
+    color: white;
+    font-size: 20px;
+}
+footer h2{
+    color: #FFFFFF;
+}
+footer .input-group-append {
+    background-color: #CE0033;
+}
+.barre-footer{
+    background-color: #CE0033;
+}
+.row{
+    flex-wrap: wrap;
+}
